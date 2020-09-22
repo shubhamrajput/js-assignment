@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<title>Assignment</title>
+
+<head>
+    <!-- Load c3.css -->
+    <link href="../bower_components/c3/c3.min.css" rel="stylesheet">
+
+    <!-- Load d3.js and c3.js -->
+    <script src="../bower_components/d3/d3.min.js" charset="utf-8"></script>
+    <script src="../bower_components/c3/c3.min.js"></script>
+
+    <!-- Load local js files -->
+    <script src="./js/bar.js" type="module"></script>
+    <script src="./js/plotSectordata.js" type="module"></script>
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 80%;
+            height: 100%;
+            margin: auto;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+        <div id="states"></div>
+    </div>
+    <hr>
+    <h3>Sector 1</h3>
+    <div class="card">
+
+        <div id="sector1"></div>
+    </div>
+    <hr>
+    <h3>Sector 2</h3>
+    <div class="card">
+        <div id="sector2"></div>
+    </div>
+    <hr>
+    <h3>Sector 3</h3>
+    <div class="card">
+        <div id="sector3"></div>
+    </div>
+
+</body>
+
+</html>

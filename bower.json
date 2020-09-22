@@ -1,0 +1,24 @@
+{
+  "name": "Assignment",
+  "authors": [
+    "Shubham Rajput <shubhamrajput025@gmail.com>"
+  ],
+  "description": "Internship Assignment",
+  "main": "app.js",
+  "keywords": [
+    "c3"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "c3": "^0.7.20"
+  }
+}
